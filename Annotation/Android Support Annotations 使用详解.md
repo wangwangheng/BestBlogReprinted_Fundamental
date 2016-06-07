@@ -40,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
 
 由于代码中参数String s使用@NonNull注解修饰，因此IDE将会以警告的形式提醒我们这个地方有问题：
 
-![](android-support-annotation-1.png)
+![](AndroidSupportAnnotations/android-support-annotation-1.png)
 
 如果我们给name赋值，例如`String name = “Our Lord Duarte”`，那么警告将消失。使用@Nullable注解修饰的函数参数或者返回值可以为null。假设User类有一个名为name的变量，使用`User.getName()`访问，那么我们可以编写如下代码：
 
@@ -89,7 +89,7 @@ public class MainActivity extends ActionBarActivity {
 
 而我们传递了一个样式资源id给它，这时IDE将提示警告如下：
 
-![](android-support-annotation-2.png)
+![](AndroidSupportAnnotations/android-support-annotation-2.png)
 
 类似的，我们把警告的地方使用一个字符串资源id代替警告就消失了：
 
@@ -126,11 +126,11 @@ public class IceCreamFlavourManager {
 
 这时如果我们使用错误的整型值调用`IceCreamFlavourManager.setFlavour`时，IDE将报错如下：
 
-![](android-support-annotation-3.png)
+![](AndroidSupportAnnotations/android-support-annotation-3.png)
 
 IDE甚至会提示我们可以使用的有效的取值：
 
-![](android-support-annotation-4.png)
+![](AndroidSupportAnnotations/android-support-annotation-4.png)
 
 我们也可以指定整型值作为标志位，也就是说这些整型值可以使用’｜’或者’&’进行与或等操作。如果我们把`@Flavour`定义为如下标志位：
 
