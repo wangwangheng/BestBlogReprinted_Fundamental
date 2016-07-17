@@ -45,3 +45,5 @@
    * [关于Android中工作者线程的思考](Thread/关于Android中工作者线程的思考.md)
    * [多线程](Thread/多线程.md)
    * [并发编程的艺术](Thread/并发编程的艺术.md)
+* [泛型](泛型/README.md)
+   * [Gson通过借助TypeToken获取泛型参数的类型的方法](泛型/Gson通过借助TypeToken获取泛型参数的类型的方法.md)
